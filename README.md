@@ -18,4 +18,4 @@ Projeto original: https://github.com/henriquebrtocosta/leaf-cmjf
 
 ## Ver o site
 
-https://SEU-USUARIO.github.io/leaf-site-html-css/
+https://henriquebrtocosta.github.io/leaf-site-html-css/
