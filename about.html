@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>O projeto - LEAF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>LEAF</h1>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="about.html">O projeto</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>O projeto LEAF</h2>
+    <p>
+      Nesta página, um resumo do que o projeto estuda. Para ir direto ao ponto, veja
+      <a href="#como-funciona">como o sistema funciona</a>.
+    </p>
+
+    <section id="objetivos">
+      <h2>Objetivos</h2>
+      <ul>
+        <li><strong>Acessibilidade:</strong> usar hardware barato e software aberto.</li>
+        <li><strong>Automação:</strong> estudar a pulverização controlada pelo computador.</li>
+        <li><strong>Visão computacional:</strong> reconhecer plantas e sinais visuais de pragas em imagens.</li>
+        <li><strong>Sustentabilidade:</strong> pesquisar ingredientes de origem natural para proteger as culturas.</li>
+        <li><strong>Educação:</strong> juntar programação, eletrônica e ciências ambientais.</li>
+      </ul>
+    </section>
+
+    <section id="como-funciona">
+      <h2>Como funciona</h2>
+      <figure class="figura">
+        <img src="images/fluxo.svg" alt="Diagrama em quatro etapas: a câmera envia imagens ao programa em Python com OpenCV, que manda comandos ao ESP32, que aciona a pulverização">
+        <figcaption>Fluxo experimental do sistema, da imagem até a pulverização.</figcaption>
+      </figure>
+      <ol>
+        <li>Uma câmera fotografa as plantas.</li>
+        <li>Um programa em Python analisa as imagens com OpenCV, olhando principalmente as cores.</li>
+        <li>O programa decide o que fazer e envia o comando por cabo USB.</li>
+        <li>Um microcontrolador ESP32 move os motores e liga as bombas de pulverização.</li>
+      </ol>
+      <p>
+        A classificação usa regras simples, não um modelo de inteligência artificial treinado.
+        Treinar e testar um modelo é uma das próximas etapas.
+      </p>
+    </section>
+
+    <section id="pesquisa-ecologica">
+      <h2>Proteção ecológica</h2>
+      <p>
+        O grupo estuda ingredientes como neem, própolis, alho, cebola, pimenta-malagueta,
+        óleo de cravo e sabão potássico. São objetos de estudo, não receitas prontas: ser
+        natural não garante que algo seja seguro ou eficaz.
+      </p>
+    </section>
+
+    <p><a href="#objetivos">Voltar aos objetivos</a></p>
+  </main>
+
+  <footer>
+    <p>LEAF · Low-Cost Ecological AgroCare Framework · projeto estudantil experimental</p>
+  </footer>
+</body>
+</html>

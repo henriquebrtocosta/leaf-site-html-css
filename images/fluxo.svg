@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 140">
+  <rect width="640" height="140" fill="#f4f7ee"/>
+  <g font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1d3a22">
+    <rect x="10" y="45" width="130" height="50" rx="8" fill="#cfe3b8" stroke="#2f6b3a" stroke-width="2"/>
+    <text x="75" y="76">Câmera</text>
+    <rect x="175" y="45" width="130" height="50" rx="8" fill="#cfe3b8" stroke="#2f6b3a" stroke-width="2"/>
+    <text x="240" y="76">Python + OpenCV</text>
+    <rect x="340" y="45" width="130" height="50" rx="8" fill="#cfe3b8" stroke="#2f6b3a" stroke-width="2"/>
+    <text x="405" y="76">ESP32</text>
+    <rect x="505" y="45" width="125" height="50" rx="8" fill="#cfe3b8" stroke="#2f6b3a" stroke-width="2"/>
+    <text x="567" y="76">Pulverização</text>
+  </g>
+  <g stroke="#2f6b3a" stroke-width="3" fill="none">
+    <path d="M142 70 H173"/><path d="M307 70 H338"/><path d="M472 70 H503"/>
+  </g>
+</svg>

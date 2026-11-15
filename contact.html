@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato - LEAF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>LEAF</h1>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="about.html">O projeto</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contato</h2>
+
+    <p id="aviso-demo" class="destaque">
+      <strong>Formulário de demonstração.</strong> Use dados fictícios: nenhuma mensagem é
+      salva nem enviada por e-mail. Ao enviar, os valores aparecem no endereço do navegador,
+      então não escreva nada pessoal ou confidencial.
+    </p>
+
+    <form action="contact.html" method="get">
+      <div class="campo">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+      <div class="campo">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="campo">
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+      </div>
+      <button class="botao" type="submit">Enviar exemplo</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>LEAF · Low-Cost Ecological AgroCare Framework · projeto estudantil experimental</p>
+  </footer>
+</body>
+</html>
